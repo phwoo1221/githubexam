@@ -1,0 +1,303 @@
+.mengto-a-purple-tree-filled-wi-icon,
+.shape {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+}
+.mengto-a-purple-tree-filled-wi-icon {
+  width: 2440.5px;
+  left: -300.3px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.shape {
+  width: 100%;
+  right: 0;
+  left: 0;
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(134.59deg, #171a57, rgba(23, 26, 87, 0));
+  z-index: 1;
+}
+.logo-icon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.serendipity-icon {
+  align-self: stretch;
+  width: 156px;
+  position: relative;
+  max-height: 100%;
+  min-height: 29px;
+}
+.buttonlogo {
+  height: 29.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.1px 0 0.2px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.item {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 43px;
+}
+.button,
+.highlights {
+  border-radius: var(--br-3xs);
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 33.5px;
+}
+.highlights {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: color-dodge;
+  z-index: 1;
+}
+.menu-button-animation {
+  height: 38px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.item1 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 54px;
+}
+.button1 {
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 28px;
+}
+.item2 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+}
+.button2 {
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 24.5px;
+}
+.item3 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 50px;
+}
+.button3 {
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.item4 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56px;
+}
+.button4 {
+  box-shadow: var(--sign-up-button);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9),
+      rgba(237, 146, 215, 0) 40.39%
+    ),
+    radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(96, 46, 166, 0),
+      rgba(201, 119, 214, 0.5)
+    );
+  border: 1px solid var(--color-gray-600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px var(--padding-7xl);
+  white-space: nowrap;
+}
+.button-highlight {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -3px;
+  bottom: -3px;
+  left: 0;
+  filter: blur(2px);
+  border-radius: var(--br-3xs);
+  border: 3px solid var(--color-fuchsia-100);
+  box-sizing: border-box;
+  mix-blend-mode: color-dodge;
+  z-index: 1;
+}
+.menu-button-animation4 {
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.menu-button,
+.menu-button-animation4,
+.menu-button-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu-button {
+  flex-direction: column;
+  padding: 2.5px 0 0;
+}
+.menu-button-area {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.layout,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.6px 0 0;
+  box-sizing: border-box;
+}
+.layout {
+  width: 1552px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--button-button-size);
+  color: var(--text-dark);
+  font-family: var(--subtitle-subtitle-1);
+}
+.menu-button-child {
+  position: absolute;
+  top: -2.5px;
+  left: -3px;
+  filter: blur(12px);
+  border-radius: var(--br-3xs);
+  border: 6px solid var(--button-dark-glow-signup);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: hard-light;
+}
+.sign-up {
+  height: 19px;
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.button5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--sign-up-button);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9),
+      rgba(237, 146, 215, 0) 40.39%
+    ),
+    radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(96, 46, 166, 0),
+      rgba(201, 119, 214, 0.5)
+    );
+  border: 1px solid var(--button-dark-outline-signup);
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-6xl);
+  white-space: nowrap;
+  width: 100%;
+}
+.main,
+.menu-button1 {
+  position: relative;
+  box-sizing: border-box;
+}
+.menu-button1 {
+  width: 110px;
+  height: 38px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--button-dark-outline-signup);
+  display: none;
+  z-index: 3;
+}
+.main {
+  width: 100%;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(180deg, #141727, #2c3262 52.41%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 54px var(--padding-xl) 421px;
+  gap: 324.9px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text-dark);
+  font-family: var(--subtitle-subtitle-1);
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    gap: 162px;
+  }
+}

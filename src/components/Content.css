@@ -1,0 +1,365 @@
+.cover-icon {
+  height: 784px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 354px;
+}
+.cancel16x161x-1-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.close-button2 {
+  height: 36px;
+  width: 36px;
+  box-shadow: 0-1px 8px #9375b6 inset, 0 0 5px #fface4 inset,
+    0 30px 30px rgba(0, 0, 0, 0.6);
+  border-radius: var(--br-xl);
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9) 3.34%,
+      rgba(237, 146, 215, 0) 57.67%
+    ),
+    radial-gradient(50% 50%at 50% 50%, #602ea6, #c977d6);
+  border: 1px solid var(--button-dark-outline-signup);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  z-index: 3;
+}
+.close-button-area {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.sign-up1 {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: left;
+  white-space: nowrap;
+}
+.email-address,
+.nameemailcom1,
+.sign-up-now,
+.sign-up1 {
+  position: relative;
+  font-family: var(--subtitle-subtitle-1);
+}
+.sign-up-now {
+  width: 320px;
+  font-size: var(--button-button-size);
+  line-height: 130%;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.email-address,
+.nameemailcom1 {
+  font-size: var(--font-size-base);
+  line-height: 21px;
+  text-align: center;
+}
+.email-address {
+  font-weight: 500;
+  color: var(--text-dark);
+  display: inline-block;
+  min-width: 107px;
+}
+.nameemailcom1 {
+  color: var(--color-gray-200);
+  white-space: nowrap;
+}
+.input-boxes {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0;
+}
+.form1,
+.input-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form1 {
+  backdrop-filter: blur(30px);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 41.13%,
+    rgba(255, 255, 255, 0.2)
+  );
+  border: 1px solid var(--color-gray-400);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-base);
+}
+.input-fields {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.nameemailcom2,
+.password {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 21px;
+  font-family: var(--subtitle-subtitle-1);
+  text-align: center;
+  display: inline-block;
+}
+.password {
+  font-weight: 500;
+  color: var(--text-dark);
+  min-width: 75px;
+}
+.nameemailcom2 {
+  color: var(--color-gray-200);
+  min-width: 48px;
+}
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.forgot-password,
+.reset-password {
+  font-family: var(--subtitle-subtitle-1);
+  color: var(--color-gray-300);
+}
+.reset-password {
+  font-weight: 600;
+  color: var(--color-deepskyblue);
+}
+.forgot-password-reset-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 130%;
+  text-align: left;
+}
+.glow2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  filter: blur(34px);
+  border-radius: var(--br-3xs);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #5137ae -40.48deg,
+    #6c35af 107.08deg,
+    #cc75db 177.49deg,
+    #5137ae 319.52deg,
+    #6c35af 467.08deg
+  );
+}
+.div15,
+.generate-images2 {
+  position: relative;
+  font-size: var(--subtitle-subtitle-1-size);
+  text-align: center;
+}
+.div15 {
+  width: 19px;
+  font-family: var(--body);
+  color: var(--color-gray-400);
+  display: none;
+}
+.generate-images2 {
+  width: 62px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--subtitle-subtitle-1);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+.button12,
+.button13 {
+  flex: 1;
+  flex-direction: row;
+}
+.button13 {
+  box-shadow: 0-1px 8px #9375b6 inset, 0 0 5px #fface4 inset,
+    0 30px 30px rgba(0, 0, 0, 0.4);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9),
+      rgba(254, 200, 241, 0) 40.39%
+    ),
+    radial-gradient(50% 50%at 50% 50%, #602ea6, #c977d6);
+  border: 1px solid var(--button-dark-outline-signup);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.button12 {
+  padding: 0 var(--padding-11xs-5) 0 var(--padding-11xs-6);
+  position: relative;
+}
+.button12,
+.darkherobutton,
+.password-help {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.darkherobutton {
+  align-self: stretch;
+  flex-direction: row;
+}
+.password-help {
+  width: 320px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.by-clicking-on {
+  width: 320px;
+  position: relative;
+  font-size: var(--font-size-smi);
+  line-height: 130%;
+  font-family: var(--subtitle-subtitle-1);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+}
+.dividers-child {
+  align-self: stretch;
+  height: 0.5px;
+  position: relative;
+  background-color: var(--color-gray-500);
+}
+.dividers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-8) 0 0;
+}
+.or1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 130%;
+  font-family: var(--subtitle-subtitle-1);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 14px;
+}
+.social-login {
+  width: 318px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.logo-g-icon1 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sign-with-google1 {
+  position: relative;
+  font-size: var(--subtitle-subtitle-1-size);
+  font-weight: 500;
+  font-family: var(--font-sf-pro-text);
+  color: var(--color-darkslategray);
+  text-align: left;
+}
+.google-button1 {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.google-button,
+.google-button1,
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.google-button {
+  box-shadow: 0 20px 40px rgba(147, 231, 221, 0.3);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(91.4deg, #e0eff7, #ebfcf8);
+  flex-direction: row;
+  padding: var(--padding-12xs-5) var(--padding-44xl-5);
+  gap: var(--gap-3xs);
+}
+.header {
+  margin: 0;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+}
+.content,
+.modal1,
+.signup-form {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signup-form {
+  width: 406px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  min-width: 406px;
+}
+.content,
+.modal1 {
+  flex-direction: row;
+}
+.modal1 {
+  width: 1065px;
+  box-shadow: 0 100px 100px rgba(0, 0, 0, 0.25), 0 40px 80px rgba(0, 0, 0, 0.5);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--text-dark);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  gap: var(--gap-81xl);
+  z-index: 2;
+}
+.content {
+  width: 1552px;
+  justify-content: center;
+}
